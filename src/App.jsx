@@ -831,7 +831,7 @@ function App() {
                             </p>
                             <div className="social-links">
                                 <a href="https://facebook.com" target="_blank" aria-label="Facebook">FB</a>
-                                <a href="https://instagram.com" target="_blank" aria-label="Instagram">IG</a>
+                                <a href="https://www.instagram.com/sastik_constructions_interior?stkn=MWIwd200anB4dDY2dA==" target="_blank" aria-label="Instagram">IG</a>
                                 <a href="https://wa.me/919629141957" target="_blank" aria-label="WhatsApp">WA</a>
                                 <a href="https://youtube.com" target="_blank" aria-label="Youtube">YT</a>
                             </div>
