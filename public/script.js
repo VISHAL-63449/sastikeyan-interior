@@ -1,3 +1,5 @@
+(function() {
+  try {
 /* ==========================================================================
    Sastikeyan Interior - Client JavaScript File
    ========================================================================== */
@@ -472,18 +474,8 @@ lazyImages.forEach(img => imgObserver.observe(img));
 // ==========================================
 const pageLoader = document.getElementById('pageLoader');
 if (pageLoader) {
-  if (true) {
-    setTimeout(() => {
-      pageLoader.classList.add('hidden');
-    }, 500);
-  }
-
-  // Fallback: hide after 3 seconds max
-  setTimeout(() => {
-    if (!pageLoader.classList.contains('hidden')) {
-      pageLoader.classList.add('hidden');
-    }
-  }, 3000);
+  // Remove artificial loading delay
+  pageLoader.classList.add('hidden');
 }
 
 // ==========================================
@@ -521,3 +513,6 @@ if (hamburgerBtn && navOverlay) {
 }
 
 // Removed closing bracket
+
+  } catch(e) { console.error(e); }
+})();
