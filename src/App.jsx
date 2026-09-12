@@ -356,9 +356,8 @@ function App() {
                                     <img src="interior%20image/WhatsApp%20Image%202026-07-14%20at%2009.24.39.jpeg"
                                         alt="Luxury Bedroom" className="lazy-load" loading="lazy" />
                                     <div className="gallery-overlay">
-                                        <h4>Luxury Bedroom</h4>
-                                        <div className="view-btn">+</div>
-                                    </div>
+                                <div className="view-btn">+</div>
+                            </div>
                                 </div>
                                 <div className="gallery-details-card premium-card-content">
                                     <span className="item-cat premium-cat">BEDROOM</span>
@@ -380,9 +379,8 @@ function App() {
                                     <img src="interior%20image/WhatsApp%20Image%202026-07-14%20at%2009.24.39%20(1).jpeg"
                                         alt="Premium TV Entertainment Unit" className="lazy-load" loading="lazy" />
                                     <div className="gallery-overlay">
-                                        <h4>Premium TV Entertainment Unit</h4>
-                                        <div className="view-btn">+</div>
-                                    </div>
+                                <div className="view-btn">+</div>
+                            </div>
                                 </div>
                                 <div className="gallery-details-card premium-card-content">
                                     <span className="item-cat premium-cat">TV UNIT</span>
@@ -404,9 +402,8 @@ function App() {
                                     <img src="interior%20image/WhatsApp%20Image%202026-07-14%20at%2009.24.39%20(3).jpeg"
                                         alt="Complete Hall Interior Design" className="lazy-load" loading="lazy" />
                                     <div className="gallery-overlay">
-                                        <h4>Complete Hall Interior Design</h4>
-                                        <div className="view-btn">+</div>
-                                    </div>
+                                <div className="view-btn">+</div>
+                            </div>
                                 </div>
                                 <div className="gallery-details-card premium-card-content">
                                     <span className="item-cat premium-cat">LIVING ROOM</span>
@@ -428,9 +425,8 @@ function App() {
                                     <img src="interior%20image/WhatsApp%20Image%202026-07-14%20at%2009.24.38.jpeg"
                                         alt="Luxury Kitchen" className="lazy-load" loading="lazy" />
                                     <div className="gallery-overlay">
-                                        <h4>Luxury Kitchen</h4>
-                                        <div className="view-btn">+</div>
-                                    </div>
+                                <div className="view-btn">+</div>
+                            </div>
                                 </div>
                                 <div className="gallery-details-card premium-card-content">
                                     <span className="item-cat premium-cat">KITCHEN</span>
@@ -452,9 +448,8 @@ function App() {
                                     <img src="interior%20image/WhatsApp%20Image%202026-07-14%20at%2009.24.40.jpeg"
                                         alt="Contemporary TV Unit Design" className="lazy-load" loading="lazy" />
                                     <div className="gallery-overlay">
-                                        <h4>Contemporary TV Unit Design</h4>
-                                        <div className="view-btn">+</div>
-                                    </div>
+                                <div className="view-btn">+</div>
+                            </div>
                                 </div>
                                 <div className="gallery-details-card premium-card-content">
                                     <span className="item-cat premium-cat">TV UNIT</span>
@@ -476,9 +471,8 @@ function App() {
                                     <img src="interior%20image/WhatsApp%20Image%202026-07-14%20at%2009.24.40%20(6).jpeg"
                                         alt="Modular TV Wall Showcase" className="lazy-load" loading="lazy" />
                                     <div className="gallery-overlay">
-                                        <h4>Modular TV Wall Showcase</h4>
-                                        <div className="view-btn">+</div>
-                                    </div>
+                                <div className="view-btn">+</div>
+                            </div>
                                 </div>
                                 <div className="gallery-details-card premium-card-content">
                                     <span className="item-cat premium-cat">TV UNIT</span>
@@ -500,9 +494,8 @@ function App() {
                                     <img src="interior%20image/WhatsApp%20Image%202026-07-14%20at%2009.24.41%20(3).jpeg"
                                         alt="Bespoke Bedroom Sanctuary" className="lazy-load" loading="lazy" />
                                     <div className="gallery-overlay">
-                                        <h4>Bespoke Bedroom Sanctuary</h4>
-                                        <div className="view-btn">+</div>
-                                    </div>
+                                <div className="view-btn">+</div>
+                            </div>
                                 </div>
                                 <div className="gallery-details-card premium-card-content">
                                     <span className="item-cat premium-cat">BEDROOM</span>
@@ -524,9 +517,8 @@ function App() {
                                     <img src="interior%20image/WhatsApp%20Image%202026-07-14%20at%2009.24.41.jpeg"
                                         alt="Luxury TV Display Wall" className="lazy-load" loading="lazy" />
                                     <div className="gallery-overlay">
-                                        <h4>Luxury TV Display Wall</h4>
-                                        <div className="view-btn">+</div>
-                                    </div>
+                                <div className="view-btn">+</div>
+                            </div>
                                 </div>
                                 <div className="gallery-details-card premium-card-content">
                                     <span className="item-cat premium-cat">TV UNIT</span>
@@ -548,9 +540,8 @@ function App() {
                                     <img src="interior%20image/WhatsApp%20Image%202026-07-14%20at%2009.24.42%20(1).jpeg"
                                         alt="Elegant Modern Dining Room" className="lazy-load" loading="lazy" />
                                     <div className="gallery-overlay">
-                                        <h4>Elegant Modern Dining Room</h4>
-                                        <div className="view-btn">+</div>
-                                    </div>
+                                <div className="view-btn">+</div>
+                            </div>
                                 </div>
                                 <div className="gallery-details-card premium-card-content">
                                     <span className="item-cat premium-cat">DINING ROOM</span>
@@ -572,9 +563,8 @@ function App() {
                                     <img src="interior%20image/WhatsApp%20Image%202026-07-14%20at%2009.24.42%20(5).jpeg"
                                         alt="Contemporary Master Bedroom" className="lazy-load" loading="lazy" />
                                     <div className="gallery-overlay">
-                                        <h4>Contemporary Master Bedroom</h4>
-                                        <div className="view-btn">+</div>
-                                    </div>
+                                <div className="view-btn">+</div>
+                            </div>
                                 </div>
                                 <div className="gallery-details-card premium-card-content">
                                     <span className="item-cat premium-cat">BEDROOM</span>
@@ -596,9 +586,8 @@ function App() {
                                     <img src="interior%20image/WhatsApp%20Image%202026-07-14%20at%2009.24.42.jpeg"
                                         alt="Minimalist TV Entertainment Setup" className="lazy-load" loading="lazy" />
                                     <div className="gallery-overlay">
-                                        <h4>Minimalist TV Entertainment Setup</h4>
-                                        <div className="view-btn">+</div>
-                                    </div>
+                                <div className="view-btn">+</div>
+                            </div>
                                 </div>
                                 <div className="gallery-details-card premium-card-content">
                                     <span className="item-cat premium-cat">TV UNIT</span>
@@ -620,9 +609,8 @@ function App() {
                                     <img src="interior%20image/WhatsApp%20Image%202026-07-14%20at%2009.24.44.jpeg"
                                         alt="Premium Modular Kitchen Design" className="lazy-load" loading="lazy" />
                                     <div className="gallery-overlay">
-                                        <h4>Premium Modular Kitchen Design</h4>
-                                        <div className="view-btn">+</div>
-                                    </div>
+                                <div className="view-btn">+</div>
+                            </div>
                                 </div>
                                 <div className="gallery-details-card premium-card-content">
                                     <span className="item-cat premium-cat">KITCHEN</span>
