@@ -750,56 +750,61 @@ function App() {
                         </div>
 
                         {/* right Panel */}
-                        <div className="contact-form-panel" data-aos="fade-left" data-aos-delay="200">
-                            <h3>Request Custom Quotation</h3>
-                            <p className="form-subtext">Fill in details. We'll contact you back in 24 hours.</p>
+                        <div className="contact-right-panel" data-aos="fade-left" data-aos-delay="200" style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+                            <div className="contact-form-panel" style={{ alignSelf: 'stretch', margin: '0' }}>
+                                <h3>Request Custom Quotation</h3>
+                                <p className="form-subtext">Fill in details. We'll contact you back in 24 hours.</p>
 
-                            <form id="quoteForm" action="#" className="quote-form">
-                                <div className="form-group">
-                                    <label htmlFor="fullName">Your Full Name *</label>
-                                    <input type="text" id="fullName" required placeholder="Ex: Ram Kumar" />
-                                </div>
-
-                                <div className="form-row">
+                                <form id="quoteForm" action="#" className="quote-form">
                                     <div className="form-group">
-                                        <label htmlFor="phoneNum">Phone Number *</label>
-                                        <input type="tel" id="phoneNum" required placeholder="Ex: 9876543210" />
+                                        <label htmlFor="fullName">Your Full Name *</label>
+                                        <input type="text" id="fullName" required placeholder="Ex: Ram Kumar" />
                                     </div>
-                                    <div className="form-group">
-                                        <label htmlFor="emailAddr">Email Address</label>
-                                        <input type="email" id="emailAddr" placeholder="Ex: ram@gmail.com" />
-                                    </div>
-                                </div>
 
-                                <div className="form-row">
-                                    <div className="form-group">
-                                        <label htmlFor="propertyType">Property Type</label>
-                                        <select id="propertyType">
-                                            <option value="2bhk">2 BHK Villa/Flat</option>
-                                            <option value="3bhk" selected>3 BHK Villa/Flat</option>
-                                            <option value="4bhk">4 BHK Villa/Flat</option>
-                                            <option value="Modular Kitchen Only">Modular Kitchen Setup Only</option>
-                                            <option value="Commercial Shop/Office">Commercial / Office Layout</option>
-                                            <option value="Renovation">Single Room Renovation</option>
-                                        </select>
+                                    <div className="form-row">
+                                        <div className="form-group">
+                                            <label htmlFor="phoneNum">Phone Number *</label>
+                                            <input type="tel" id="phoneNum" required placeholder="Ex: 9876543210" />
+                                        </div>
+                                        <div className="form-group">
+                                            <label htmlFor="emailAddr">Email Address</label>
+                                            <input type="email" id="emailAddr" placeholder="Ex: ram@gmail.com" />
+                                        </div>
                                     </div>
-                                    <div className="form-group">
-                                        <label htmlFor="location">Property Location *</label>
-                                        <input type="text" id="location" required placeholder="Ex: Cantonment, Trichy" />
+
+                                    <div className="form-row">
+                                        <div className="form-group">
+                                            <label htmlFor="propertyType">Property Type</label>
+                                            <select id="propertyType">
+                                                <option value="2bhk">2 BHK Villa/Flat</option>
+                                                <option value="3bhk" selected>3 BHK Villa/Flat</option>
+                                                <option value="4bhk">4 BHK Villa/Flat</option>
+                                                <option value="Modular Kitchen Only">Modular Kitchen Setup Only</option>
+                                                <option value="Commercial Shop/Office">Commercial / Office Layout</option>
+                                                <option value="Renovation">Single Room Renovation</option>
+                                            </select>
+                                        </div>
+                                        <div className="form-group">
+                                            <label htmlFor="location">Property Location *</label>
+                                            <input type="text" id="location" required placeholder="Ex: Cantonment, Trichy" />
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div className="form-group">
-                                    <label htmlFor="userMsg">Tell Us About Your Project & Budget Requirements</label>
-                                    <textarea id="userMsg" rows="4"
-                                        placeholder="Ex: I want modular kitchen cabinets, 3 bedroom wardrobes, and TV Unit false ceiling..."></textarea>
-                                </div>
+                                    <div className="form-group">
+                                        <label htmlFor="userMsg">Tell Us About Your Project & Budget Requirements</label>
+                                        <textarea id="userMsg" rows="4"
+                                            placeholder="Ex: I want modular kitchen cabinets, 3 bedroom wardrobes, and TV Unit false ceiling..."></textarea>
+                                    </div>
 
-                                <button type="submit" className="btn btn-primary btn-block">
-                                    SUBMIT REQUEST
-                                </button>
-                                <div id="formStatus" className="form-status"></div>
-                            </form>
+                                    <button type="submit" className="btn btn-primary btn-block">
+                                        SUBMIT REQUEST
+                                    </button>
+                                    <div id="formStatus" className="form-status"></div>
+                                </form>
+                            </div>
+                            <a href="https://construction.sastikeyaninterior.in" target="_blank" rel="noopener noreferrer" className="btn btn-premium-outline btn-block">
+                                VISIT SASTIKEYAN CONSTRUCTION
+                            </a>
                         </div>
                     </div>
                 </div>
